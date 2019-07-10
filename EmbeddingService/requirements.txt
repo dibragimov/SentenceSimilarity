@@ -1,0 +1,4 @@
+Flask==1.0.2
+transliterate
+tqdm
+sacremoses==0.0.19

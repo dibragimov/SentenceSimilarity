@@ -1,0 +1,200 @@
+What is changing?
+Why is this necessary?
+I already opted in for longer IDs last year. Why do I need to opt-in again?
+What will the new identifier format look like?
+Which IDs are changing?
+How does this impact me?
+Will this affect existing resources?
+When will this happen?
+Why is there an opt-in period?
+How do I opt in and out of receiving longer IDs?
+What will happen if I take no action?
+What if I prefer to keep receiving the shorter ID format after the end of June 2018?
+When will the longer IDs’ final transition happen?
+If I opt in to longer IDs and then opt back out during the transition period, what will happen to resources that were created with longer IDs?
+What should I do if my systems are not working as expected before the transition period ends?
+What will happen if I launch resources in multiple regions during the transition period?
+If AWS adds new regions during the transition period, will new regions support longer IDs?
+What will be the default ID type for new accounts?
+Will I need to upgrade to a new version of the AWS SDKs or CLI?
+How can I test my systems with longer IDs?
+What is Amazon Elastic Compute Cloud (Amazon EC2)?
+What can I do with Amazon EC2?
+How can I get started with Amazon EC2?
+Why am I asked to verify my phone number when signing up for Amazon EC2?
+What can developers now do that they could not before?
+How do I run systems in the Amazon EC2 environment?
+What is the difference between using the local instance store and Amazon Elastic Block Store (Amazon EBS) for the root device?
+How quickly will systems be running?
+How do I load and store my systems with Amazon EC2?
+How do I access my systems?
+Is Amazon EC2 used in conjunction with Amazon S3?
+How many instances can I run in Amazon EC2?
+Are there any limitations in sending email from Amazon EC2 instances?
+How quickly can I scale my capacity both up and down?
+What operating system environments are supported?
+Does Amazon EC2 use ECC memory?
+How is this service different than a plain hosting service?
+What are Accelerated Computing instances?
+How are P3 instances different from G3 instances?
+What are the benefits of NVIDIA Volta GV100 GPUs?
+Who will benefit from P3 instances?
+What are some key use cases of P3 instances?
+Why should customers use GPU-powered Amazon P3 instances for AI/ML and HPC?
+Will P3 instances support EC2 Classic networking and Amazon VPC?
+How are P3 instances different from G2 instances?
+What is an Amazon FPGA Image (AFI)?
+Why does the total memory reported by&nbsp;the operating system not match the advertised memory of the C5 instance type?
+What are the key use cases for Amazon EC2 M5 Instances?
+Why should customers choose EC2 M5 Instances over EC2 M4 Instances?
+How does support for Intel AVX-512 benefit EC2 M5 Instance customers
+What are the various storage options available to M5 customers?
+Which network interface is supported on M5 instances?
+When should I choose a Burstable Performance Instance, such as T2?
+How can I see the CPU Credit balance for each T2 instance?
+What happens to CPU performance if my T2 instance is running low on credits (CPU Credit balance is near zero)?
+Does my T2 instance credit balance persist at stop / start?
+Can T2 instances be purchased as Reserved Instances or Spot Instances?
+Why don’t I see M1, C1, CC2 and HS1 instances on the pricing pages any more?
+Are these Previous Generation instances still being supported?
+Can I still use/add more Previous Generation instances?
+Are my Previous Generation instances going to be deleted?
+Are Previous Generation instances being discontinued soon?
+Will my Previous Generation instances I purchased as a Reserved Instance be affected or changed?
+What operating systems are supported on X1 and X1e instances?
+What happens to my data when a system terminates?
+What kind of performance can I expect from Amazon EBS volumes?
+What are Throughput Optimized HDD (st1) and Cold HDD (sc1) volume types?
+Which volume type should I choose?
+Do you support multiple instances accessing a single volume?
+Will I be able to access my EBS snapshots using the regular Amazon S3 APIs?
+Do volumes need to be un-mounted in order to take a snapshot? Does the snapshot need to complete before the volume can be used again?
+Are snapshots versioned? Can I read an older snapshot to do a point-in-time recovery?
+What charges apply when using Amazon EBS shared snapshots?
+Can users of my Amazon EBS shared snapshots change any of my data?
+How can I discover Amazon EBS snapshots that have been shared with me?
+How can I find what Amazon EBS snapshots are shared globally?
+Do you offer encryption on Amazon EBS volumes and snapshots?
+How can I find a list of Amazon Public Data Sets?
+Where can I learn more about EBS?
+Where can I learn more about EFS?
+Which instance types offer NVMe instance storage?
+Is data stored on Amazon EC2 NVMe instance storage encrypted?
+What encryption algorithm is used to encrypt Amazon EC2 NVMe instance storage?
+Are encryption keys unique to an instance or a particular device for NVMe instance storage?
+What is the lifetime of encryption keys on NVMe instance storage?
+Can I disable NVMe instance storage encryption?
+Do the published IOPS performance numbers on I3 include data encryption?
+Does Amazon EC2 NVMe instance storage support AWS Key Management Service (KMS)?
+Why should I use EFA?
+What types of applications can benefit from using EFA?
+How does EFA communication work?
+Which instance types support EFA?
+What are the differences between an EFA ENI and an ENA ENI?
+What are the pre-requisites to enabling EFA on an instance?
+Why am I limited to 5 Elastic IP addresses per region?
+Why am I charged when my Elastic IP address is not associated with a running instance?
+Do I need one Elastic IP address for every instance that I have running?
+How long does it take to remap an Elastic IP address?
+Can I configure the reverse DNS record for my Elastic IP address?
+What load balancing options does the Elastic Load Balancing service offer?
+When should I use the Classic Load Balancer and when should I use the Application Load Balancer?
+What networking capabilities are included in this feature?
+Why should I use Enhanced Networking?
+How can I enable Enhanced Networking on supported instances?
+Do I need to pay an additional fee to use Enhanced Networking?
+Why is Enhanced Networking only supported in Amazon VPC?
+Which instance types support Enhanced Networking?
+How do I prevent other people from viewing my systems?
+Can I get a history of all EC2 API calls made on my account for security analysis and operational troubleshooting purposes?
+Where can I find more information about security on AWS?
+What is the minimum time interval granularity for the data that Amazon CloudWatch receives and aggregates?
+Which operating systems does Amazon CloudWatch support?
+Will I lose the metrics data if I disable monitoring for an Amazon EC2 instance?
+Can I access the metrics data for a terminated Amazon EC2 instance or a deleted Elastic Load Balancer?
+Does the Amazon CloudWatch monitoring charge change depending on which type of Amazon EC2 instance I monitor?
+Why does the graphing of the same time window look different when I view in 5 minute and 1 minute periods?
+Can I automatically scale my Amazon EC2 fleets?
+Why should I hibernate an instance?
+What happens when I hibernate my instance?
+What is the difference between hibernate and stop?
+How much does it cost to hibernate an instance?
+How can I hibernate an instance?
+How can I resume a hibernating instance?
+Can I enable hibernation on an existing instance?
+How can I tell that an instance is hibernated?
+What is the state of an instance when it is hibernating?
+What data is saved when I hibernate an instance?
+Where is my data stored when I hibernate an instance?
+Is my memory (RAM) data encrypted when it is moved to EBS?
+How long can I keep my instance hibernated?
+What are the prerequisites to hibernate an instance?
+Which instances and operating systems support hibernation?
+Should I use specific Amazon Machine Image (AMIs) if I want to hibernate my instance?
+What if my EBS root volume is not large enough to store memory state (RAM) for hibernate?
+How will I be charged and billed for my use of Amazon EC2?
+When does billing of my Amazon EC2 systems begin and end?
+What defines billable EC2 instance usage?
+If I have two instances in different availability zones, how will I be charged for regional data transfer?
+How will my monthly bill show per-second versus per-hour?
+Do your prices include taxes?
+What is a Convertible RI?
+When should I purchase a Convertible RI instead of a Standard RI?
+What term length options are available on Convertible RIs?
+Can I exchange my Convertible RI to benefit from a Convertible RI matching a different instance type, operating system, tenancy, or payment option?
+Can I transfer a Convertible or Standard RI from one region to another?
+How do I change the configuration of a Convertible RI?
+Do I need to pay a fee when I exchange my Convertible RIs?
+How do Convertible RI exchanges work?
+Can you define total value?
+Can you walk me through how the true-up cost is calculated for a conversion between two All Upfront Convertible RIs?
+Can you walk me through a conversion between No Upfront Convertible RIs?
+Can I customize the number of instances that I receive as a result of a Convertible RI exchange?
+Are there exchange limits for Convertible RIs?
+Do I have the freedom to choose any instance type when I exchange my Convertible RIs?
+Can I upgrade the payment option associated with my Convertible RI?
+Do Convertible RIs allow me to benefit from price reductions when they happen?
+Can I get a discount for Capacity Reservation usage?
+What is a Reserved Instance?
+What are the differences between Standard RIs and Convertible RIs?
+Do RIs provide a capacity reservation?
+When should I purchase a zonal RI?
+When should I purchase a regional RI?
+What are Availability Zone and instance size flexibility?
+What types of RIs provide instance size flexibility?
+Do I need to take any action to take advantage of Availability Zone and instance size flexibility?
+I own zonal RIs how do I assign them to a region?
+How do I purchase an RI?
+Can I purchase an RI for a running instance?
+Can I control which instances are billed at the discounted rate?
+How does instance size flexibility work?
+Can I change my RI during its term?
+Can I change the instance type of my RI during its term?
+What are the different payment options for RIs?
+When are RIs activated?
+Do RIs apply to Spot instances or instances running on a Dedicated Host?
+How do RIs work with Consolidated Billing?
+Can I get a discount on RI purchases?
+Can you help me understand how volume discounts are applied to my RI purchases?
+How do I calculate the list value of an RI?
+How are volume discounts calculated if I use Consolidated Billing?
+Do Convertible RIs qualify for Volume Discounts?
+How do I determine which volume discount tier applies to me?
+Will the cost of my RIs change, if my future volume qualifies me for other discount tiers?
+Do I need to take any action at the time of purchase to receive volume discounts?
+Are Spot blocks (Fixed Duration Spot instances) ever interrupted?
+Can I use stop or Hibernation interruption behaviors with Spot Fleet?
+How isolated are Availability Zones from one another?
+Is Amazon EC2 running in more than one region?
+How can I make sure that I am in the same Availability Zone as another developer?
+If I transfer data between Availability Zones using public IP addresses, will I be charged twice for Regional Data Transfer (once because it’s across zones, and a second time because I’m using public IP addresses)?
+What kind of hardware will my application stack run on?
+How does EC2 perform maintenance?
+How do I select the right instance type?
+What is an “EC2 Compute Unit” and why did you introduce it?
+What is the regional availability of Amazon EC2 instance types?
+What is Optimize CPUs?
+Why should I use Optimize CPUs feature?
+How will the CPU optimized instances be priced?
+How will my application performance change when using Optimize CPUs on EC2?
+Can I use Optimize CPUs on EC2 Bare Metal instance types (such as i3.metal)?

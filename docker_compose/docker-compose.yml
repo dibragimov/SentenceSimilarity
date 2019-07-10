@@ -1,0 +1,68 @@
+version: "3"
+services:
+  bertservice:
+    build: '../EmbeddingServiceBERT'
+    container_name: bertembedding
+    deploy:
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "7001:7001"
+      - "7002:7002"
+#    network_mode: "host"
+    networks:
+      - default
+#      - webnet
+  embedding:
+    build: '../EmbeddingService'
+    container_name: embedding
+    deploy:
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - bertservice
+    links:
+      - bertservice
+    ports:
+      - "7005:7005"
+#    network_mode: "host"
+    networks:
+      - default
+#      - webnet
+  comparison:
+    build: '../VectorComparisonService'
+    container_name: comparison
+    deploy:
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "7006:7006"
+#    network_mode: "host"
+    networks:
+      - default
+#      - webnet
+  glue:
+    build: '../SimilaritySearchService'
+    container_name: glue
+    deploy:
+      restart_policy:
+        condition: on-failure
+    depends_on:
+      - embedding
+      - comparison
+    links:
+      - embedding
+      - comparison
+    ports:
+      - "7007:7007"
+#    network_mode: "host"
+    networks:
+      - default
+#      - webnet
+#  web:
+#    # replace username/repo:tag with your name and image details
+#    image: username/repo:tag
+
+#networks:
+#  webnet:
+
