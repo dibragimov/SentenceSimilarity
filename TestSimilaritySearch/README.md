@@ -21,10 +21,6 @@ This repo contains changes for a python code in order to build a test to compare
 
 ## Applications
 
-## License
-
-Copyright InoviaGroup. 
-
 ## Supported languages
 
 ## References
